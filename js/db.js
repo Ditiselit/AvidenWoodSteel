@@ -1,68 +1,68 @@
 const product = [
     {
         id: 1,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v7.jpg",
-        nane: "Table",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v7.jpg",
+        name: "Table",
         price: 2480,
         description: "Lorem",
     },
     {
         id: 2,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v4.jpg",
-        nane: "Stand",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v4.jpg",
+        name: "Stand",
         price: 2480,
         description: "Lorem",
     },
     {
         id: 3,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v3.jpg",
-        nane: "Bad",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v3.jpg",
+        name: "Bad",
         price: 2480,
         description: "Lorem",
     },
     {
         id: 4,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v5.jpg",
-        nane: "Stand",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v5.jpg",
+        name: "Stand",
         price: 2480,
         description: "Lorem",
     },
     {
         id: 5,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v2.jpg",
-        nane: "Table",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v2.jpg",
+        name: "Table",
         price: 2480,
         description: "Lorem",
     },
     {
         id: 6,
-        badga: {
+        badge: {
             title: "New" ,
-            bd: "new"
+            bg: "new"
         },
-        image: "images/mnl.v6.jpg",
-        nane: "Table",
+        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v6.jpg",
+        name: "Table",
         price: 2480,
         description: "Lorem",
-    },
+    },     
 ];
