@@ -5,7 +5,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v7.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v7.jpg",
         name: "Table",
         price: 2480,
         description: "Lorem",
@@ -16,7 +16,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v4.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v4.jpg",
         name: "Stand",
         price: 2480,
         description: "Lorem",
@@ -27,7 +27,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v3.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v3.jpg",
         name: "Bad",
         price: 2480,
         description: "Lorem",
@@ -38,7 +38,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v5.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v5.jpg",
         name: "Stand",
         price: 2480,
         description: "Lorem",
@@ -49,7 +49,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v2.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v2.jpg",
         name: "Table",
         price: 2480,
         description: "Lorem",
@@ -60,7 +60,7 @@ const product = [
             title: "New" ,
             bg: "new"
         },
-        image: "https://github.com/Ditiselit/AvidenWoodSteel/blob/main/images/mnl.v6.jpg",
+        image: "https://raw.githubusercontent.com/Ditiselit/AvidenWoodSteel/main/images/mnl.v6.jpg",
         name: "Table",
         price: 2480,
         description: "Lorem",

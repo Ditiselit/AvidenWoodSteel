@@ -13,20 +13,21 @@
 
     <!--page header-->
 
-    <header class="page-header py-6" style="background: url(images/flatV1\ \ \(19\).jpg);" id="page-header">
-        <div class="navigation-menu">
-                      
+    <header class="page-header py-6" style="background: url(images/flatV1\ \ \(2.3\).jpg);" id="page-header">
+        <div class="navigation-menu">  
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="fas fa-bars"></i></label>                    
             <nav class="navbar">
+                <a href="torder.html">To order</a>
                 <a href="shop.html">Shop</a>
                 <a href="servis.html">Servis</a>
-                <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </nav> 
             <a href="index.html"><img src="images/DlogoV2.png" alt=""></a>          
             <div class="toolbar">
-                <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                <a href="cart.html"><i class="fas fa-dolly-flatbed"></i></a>
-                <a href="user.html"><i class="far fa-user"></i></a>
+                <a href="wishlist.html"><i class="far fa-heart"></i><small class="text-gray">(<span id="total-number-items-in-wishlist">0</span>)</small></a>
+                <a href="cart.html"><i class="fas fa-dolly-flatbed"></i><small class="text-gray">(<span id="total-number-items-in-cart">0</span>)</small></a>
+                <a onclick="window.login.showModal()"><i class="far fa-user"></i></a>
             </div>
         </div>
     </header>
@@ -60,103 +61,8 @@
                                     </th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="py-3" scope="row">
-                                        <img src="images/mnl.v7.jpg" alt="Product name" width="70">
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        Table
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        12 600 UAH
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <div class="d-flex align-item-center justify-content-between quantity px-3">
-                                            <i class="fas fa-caret-left"></i>
-                                            <input value="1" class="input">
-                                            <i class="fas fa-caret-right"></i>
-                                        </div>                                      
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        1
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3" scope="row">
-                                        <img src="images/mnl.v7.jpg" alt="Product name" width="70">
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        Table
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        12 600 UAH
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <div class="d-flex align-item-center justify-content-between quantity px-3">
-                                            <i class="fas fa-caret-left"></i>
-                                            <input value="1" class="input">
-                                            <i class="fas fa-caret-right"></i>
-                                        </div>                                      
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        1
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3" scope="row">
-                                        <img src="images/mnl.v7.jpg" alt="Product name" width="70">
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        Table
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        12 600 UAH
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <div class="d-flex align-item-center justify-content-between quantity px-3">
-                                            <i class="fas fa-caret-left"></i>
-                                            <input value="1" class="input">
-                                            <i class="fas fa-caret-right"></i>
-                                        </div>                                      
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        1
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3" scope="row">
-                                        <img src="images/mnl.v7.jpg" alt="Product name" width="70">
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        Table
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        12 600 UAH
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <div class="d-flex align-items-center justify-content-between quantity px-3">
-                                            <i class="fas fa-caret-left"></i>
-                                            <input value="1" class="input">
-                                            <i class="fas fa-caret-right"></i>
-                                        </div>                                       
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        1
-                                    </td>
-                                    <td class="py-3" scope="row">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </td>
-                                </tr>
+                            <tbody class="products-in-cart">
+                                
                             </tbody>
                             <tfoot></tfoot>
                         </table>
@@ -166,8 +72,9 @@
                     <div class="bg-light card">
                         <h5 class="text-uppercase mb-4">Cart total</h5>
                         <ul class="list-unstyled">
-                            <li class="align-items-center justify-content-between">Sabtotal <span>6</span></li>
-                            <li class="align-items-center justify-content-between">Total <span>6</span></li>
+                            <li class="align-items-center justify-content-between">Sabtotal: <span class="cart-subtotal"></span></li>
+                            <li class="align-items-center justify-content-between">Tax: <span class="cart-tax"></span></li>
+                            <li class="align-items-center justify-content-between">Total: <span class="cart-total"></span></li>
                         </ul>
                     </div>
                 </div>
@@ -204,6 +111,9 @@
             <p>copyright &copy;2023 codeOpacity. designed by <span>Ditiselit</span></p>
         </div>
     </footer>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>
